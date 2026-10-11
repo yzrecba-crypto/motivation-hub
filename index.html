@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motivation Hub | Daily Drive for Winners</title>
+    <meta
+      name="description"
+      content="Motivation Hub offers daily quotes, discipline challenges, motivational wallpapers, music, and personal growth tools for ambitious people."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="home">
+    <div class="page-shell">
+      <header class="topbar">
+        <nav class="nav container">
+          <a href="index.html" class="logo" aria-label="Motivation Hub home">
+            <span class="logo-mark">🔥</span>
+            <span>Motivation Hub</span>
+          </a>
+
+          <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
+
+          <div class="nav-links">
+            <a href="#quote">Quotes</a>
+            <a href="#video">AI Video</a>
+            <a href="#wallpapers">Wallpapers</a>
+            <a href="#challenges">Challenges</a>
+            <a href="#music">Music</a>
+            <a href="pricing.html">Membership</a>
+            <a href="login.html" class="btn btn-ghost">Login</a>
+            <a href="signup.html" class="btn btn-primary">Sign Up</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero container">
+          <div class="hero-copy">
+            <span class="eyebrow">Built for disciplined minds</span>
+            <h1>Turn pressure into progress. Own your next win.</h1>
+            <p>
+              Daily motivation, clear challenges, focus rituals, and growth habits designed to help you stay sharp,
+              consistent, and unbeatable.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#challenges" class="btn btn-primary">Start challenge</a>
+              <a href="pricing.html" class="btn btn-secondary">View premium</a>
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <strong id="hero-users">12.4K</strong>
+                <span>members</span>
+              </div>
+              <div>
+                <strong id="hero-streak">18 days</strong>
+                <span>average streak</span>
+              </div>
+              <div>
+                <strong id="hero-points">6.8K</strong>
+                <span>weekly points</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card glass-panel">
+            <div class="mini-header">
+              <span class="live-dot"></span>
+              <span>Focus Mode</span>
+            </div>
+            <h3>Today’s intention</h3>
+            <p>"I choose momentum over comfort, and discipline over hesitation."</p>
+            <ul>
+              <li>Deep work sprint: 30 min</li>
+              <li>Move your body: 10 min</li>
+              <li>Reflect: 5 min</li>
+            </ul>
+            <button class="btn btn-primary full-width js-complete-todays-goal">Complete goal</button>
+          </div>
+        </section>
+
+        <section id="quote" class="section container">
+          <div class="section-heading">
+            <span class="eyebrow">Daily quote</span>
+            <h2>Words that move you forward</h2>
+          </div>
+
+          <div class="quote-card glass-panel">
+            <div class="quote-icon">“</div>
+            <p id="daily-quote-text">
+              Discipline is choosing your future before your feelings have time to vote.
+            </p>
+            <div class="quote-meta">
+              <span id="daily-quote-author">- Motivation Hub</span>
+              <div class="quote-actions">
+                <button class="btn btn-ghost quote-copy-btn">Copy</button>
+                <button class="btn btn-primary quote-next-btn">New quote</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="video" class="section container">
+          <div class="section-heading">
+            <span class="eyebrow">AI motivation video</span>
+            <h2>Visual fuel for your next level</h2>
+          </div>
+
+          <div class="video-layout">
+            <div class="video-preview glass-panel">
+              <div class="video-screen">
+                <div class="screen-overlay">
+                  <span class="badge">AI render</span>
+                  <button class="play-video-btn">▶ Play teaser</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-side glass-panel">
+              <h3>Daily momentum reel</h3>
+              <p>
+                A demo AI-generated motivation concept to help you build focus rituals and keep your energy aligned with your goals.
+              </p>
+              <ul>
+                <li>Intensity boost</li>
+                <li>Discipline theme</li>
+                <li>Action-driven visuals</li>
+              </ul>
+              <button class="btn btn-primary">Generate new concept</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="wallpapers" class="section container">
+          <div class="section-heading">
+            <span class="eyebrow">Wallpapers</span>
+            <h2>Download your daily winner wallpaper</h2>
+          </div>
+
+          <div class="wallpaper-grid">
+            <article class="wallpaper-card glass-panel">
+              <div class="wallpaper-preview preview-one"></div>
+              <div class="wallpaper-body">
+                <h3>Gold Horizon</h3>
+                <p>Luxury focus wallpaper</p>
+                <a class="btn btn-primary" href="assets/wallpapers/gold-horizon.svg" download>Download</a>
+              </div>
+            </article>
+
+            <article class="wallpaper-card glass-panel">
+              <div class="wallpaper-preview preview-two"></div>
+              <div class="wallpaper-body">
+                <h3>Night Ambition</h3>
+                <p>Late-night grind energy</p>
+                <a class="btn btn-primary" href="assets/wallpapers/night-ambition.svg" download>Download</a>
+              </div>
+            </article>
+
+            <article class="wallpaper-card glass-panel">
+              <div class="wallpaper-preview preview-three"></div>
+              <div class="wallpaper-body">
+                <h3>Focus Grid</h3>
+                <p>Minimal performance mindset</p>
+                <a class="btn btn-primary" href="assets/wallpapers/focus-grid.svg" download>Download</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="challenges" class="section container">
+          <div class="section-heading split-heading">
+            <div>
+              <span class="eyebrow">Daily discipline</span>
+              <h2>Build momentum one win at a time</h2>
+            </div>
+            <div class="chip-group">
+              <span class="chip">Streak: <strong id="streak-display">0</strong></span>
+              <span class="chip">Points: <strong id="points-display">0</strong></span>
+            </div>
+          </div>
+
+          <div id="challenge-list" class="challenge-list"></div>
+        </section>
+
+        <section id="music" class="section container">
+          <div class="section-heading">
+            <span class="eyebrow">Motivation music</span>
+            <h2>Power-up sound for deep work</h2>
+          </div>
+
+          <div class="music-card glass-panel">
+            <div class="music-art">
+              <div class="art-circle">🎧</div>
+            </div>
+            <div class="music-info">
+              <p class="track-label">Now playing</p>
+              <h3>Golden Focus</h3>
+              <p class="track-subtitle">Cinematic energy • 90 BPM</p>
+
+              <div class="progress-track">
+                <span></span>
+              </div>
+
+              <div class="music-controls">
+                <button class="btn btn-ghost tone-btn">Prev</button>
+                <button id="music-toggle" class="btn btn-primary">Play</button>
+                <button class="btn btn-ghost tone-btn">Next</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section container ad-strip">
+          <div class="ad-block">
+            <span>Ad space</span>
+            <p>Premium productivity coaching for serious builders</p>
+          </div>
+          <div class="ad-block">
+            <span>Ad space</span>
+            <p>Smart fitness gear for your daily discipline routine</p>
+          </div>
+          <div class="ad-block">
+            <span>Ad space</span>
+            <p>Launch your personal brand with a custom website</p>
+          </div>
+        </section>
+
+        <section class="section container leaderboard-section">
+          <div class="section-heading split-heading">
+            <div>
+              <span class="eyebrow">Leaderboard</span>
+              <h2>See who is moving fastest</h2>
+            </div>
+            <button class="btn btn-secondary" id="refresh-leaderboard">Refresh board</button>
+          </div>
+
+          <div id="leaderboard" class="leaderboard glass-panel"></div>
+        </section>
+
+        <section class="section container chatbot-section">
+          <div class="section-heading">
+            <span class="eyebrow">AI motivation chatbot</span>
+            <h2>Ask for energy, focus, or a reset</h2>
+          </div>
+
+          <div class="chatbot glass-panel">
+            <div id="chat-log" class="chat-log">
+              <div class="message bot">
+                <p>Welcome back. Need a quick push or a realistic plan? Tell me what you’re facing.</p>
+              </div>
+            </div>
+
+            <form id="chat-form" class="chat-form">
+              <input id="chat-input" type="text" placeholder="Ask for focus, courage, or reset advice..." aria-label="Ask the chatbot" />
+              <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer-inner">
+          <div>
+            <a href="index.html" class="logo">
+              <span class="logo-mark">🔥</span>
+              <span>Motivation Hub</span>
+            </a>
+            <p>Daily growth for ambitious people.</p>
+          </div>
+
+          <div class="footer-links">
+            <a href="pricing.html">Premium</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="profile.html">Profile</a>
+            <a href="#video">AI Video</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

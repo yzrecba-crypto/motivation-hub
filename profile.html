@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile | Motivation Hub</title>
+    <meta name="description" content="View your Motivation Hub profile, streak, points, and goals." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="profile">
+    <header class="topbar">
+      <nav class="nav container">
+        <a href="index.html" class="logo">
+          <span class="logo-mark">🔥</span>
+          <span>Motivation Hub</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
+
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="#">Profile</a>
+          <a href="pricing.html">Membership</a>
+          <a href="login.html" class="btn btn-ghost">Login</a>
+          <a href="signup.html" class="btn btn-primary">Sign Up</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container profile-page">
+      <section class="section profile-header glass-panel">
+        <div class="profile-avatar" id="profile-avatar">M</div>
+        <div>
+          <span class="eyebrow">Profile overview</span>
+          <h1 id="profile-name">Your name</h1>
+          <p id="profile-goal">Goal focus: Discipline</p>
+        </div>
+      </section>
+
+      <section class="profile-grid">
+        <div class="profile-stat glass-panel">
+          <span>Daily streak</span>
+          <strong id="profile-streak">0 days</strong>
+        </div>
+        <div class="profile-stat glass-panel">
+          <span>Total points</span>
+          <strong id="profile-points">0</strong>
+        </div>
+        <div class="profile-stat glass-panel">
+          <span>Challenges done</span>
+          <strong id="profile-completed">0</strong>
+        </div>
+      </section>
+
+      <section class="section profile-panel glass-panel">
+        <h2>Account details</h2>
+        <div class="details-list">
+          <div><span>Email</span><strong id="profile-email">—</strong></div>
+          <div><span>Member status</span><strong>Free Demo</strong></div>
+          <div><span>Motivation level</span><strong>High focus</strong></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

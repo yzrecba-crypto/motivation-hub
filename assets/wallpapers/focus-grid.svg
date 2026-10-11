@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="1800" viewBox="0 0 1200 1800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0d0d0f"/>
+      <stop offset="45%" stop-color="#171b22"/>
+      <stop offset="70%" stop-color="#c99936"/>
+      <stop offset="100%" stop-color="#f1d98d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1800" fill="url(#g1)"/>
+  <g opacity="0.25" stroke="#f3d98b" stroke-width="3">
+    <path d="M100 500H1100"/>
+    <path d="M100 760H1100"/>
+    <path d="M100 1020H1100"/>
+    <path d="M100 1280H1100"/>
+    <path d="M240 250V1550"/>
+    <path d="M520 250V1550"/>
+    <path d="M800 250V1550"/>
+    <path d="M1080 250V1550"/>
+  </g>
+  <text x="600" y="740" text-anchor="middle" fill="#f6d887" font-size="96" font-family="Arial, sans-serif" font-weight="700">FOCUS</text>
+  <text x="600" y="845" text-anchor="middle" fill="#fff4d2" font-size="64" font-family="Arial, sans-serif">GRID</text>
+  <text x="600" y="970" text-anchor="middle" fill="#f9d56d" font-size="42" font-family="Arial, sans-serif">Small actions. Big identity.</text>
+</svg>

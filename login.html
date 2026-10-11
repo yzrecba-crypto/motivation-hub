@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Motivation Hub</title>
+    <meta name="description" content="Login to your Motivation Hub profile, streaks, and daily progress tracker." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="auth">
+    <header class="topbar">
+      <nav class="nav container">
+        <a href="index.html" class="logo">
+          <span class="logo-mark">🔥</span>
+          <span>Motivation Hub</span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
+
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="pricing.html">Membership</a>
+          <a href="signup.html" class="btn btn-primary">Sign Up</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container auth-page">
+      <div class="auth-card glass-panel">
+        <span class="eyebrow">Welcome back</span>
+        <h1>Login</h1>
+
+        <form id="login-form" class="auth-form">
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+
+          <label>
+            Password
+            <input type="password" name="password" placeholder="••••••••" required />
+          </label>
+
+          <button class="btn btn-primary full-width" type="submit">Login</button>
+        </form>
+
+        <div class="auth-switch">
+          <span>Need an account?</span>
+          <a href="signup.html">Create account</a>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
